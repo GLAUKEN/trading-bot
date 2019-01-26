@@ -7,7 +7,9 @@ Poloniex API : https://poloniex.com/public`
 ## Common Indicators
 
 Bid : The most someone is willing to pay for an asset
+
 Ask : The least someone is willing to receive
+
 Candles : Bundles of transactions
     - Duration : Length in time of the candle
     - Open     : First tx in the candle
@@ -17,6 +19,7 @@ Candles : Bundles of transactions
 ## Arbitrage
 
 Kraken XBT/DASH   : https://api.kraken.com/0/public/Ticker?pair=DASHXBT
+
 Poloniex XBT/DASH : https://poloniex.com/public?command=returnTicker
 
 We retrieve the ask & bid at each timestamp of the XBT/DASH pair on both platforms
