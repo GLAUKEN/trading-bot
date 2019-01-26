@@ -43,7 +43,7 @@ https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=
 
     start=1485302400 : Unix timestamp 1 year ago
 
-    end=1548437192   : Unix timestamp when we did
+    end=1548437192   : Unix timestamp when we did it
 
     period=300       : Time resolution (5 min)
 
