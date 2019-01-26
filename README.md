@@ -29,11 +29,9 @@ Poloniex XBT/DASH : https://poloniex.com/public?command=returnTicker
 We retrieve the ask & bid at each timestamp of the XBT/DASH pair on both platforms
 and then compare them.
 
-if (kraken_ask < poloniex-bid || poloniex_ask < kraken_bid) {
-
-    //arbitrage opportunity detected
-    
-}
+    if (kraken_ask < poloniex-bid || poloniex_ask < kraken_bid) {
+        //arbitrage opportunity detected
+    }
 
 ## Data analysis
 
@@ -55,10 +53,10 @@ Unix timestamp : https://www.unixtimestamp.com/index.php
 
 Install dependencies :
 
-npm i --save exponential-moving-average
+    npm i --save exponential-moving-average
 
 Use it :
 
-const ema = require('exponential-moving-average');
+    const ema = require('exponential-moving-average');
 
-ema(data, period);
+    ema(data, period);
