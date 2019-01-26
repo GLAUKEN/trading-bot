@@ -71,7 +71,28 @@ Use it:
 
     ema(data, period);
 
+### Relative Strength Index - RSI
+
+Momentum oscillator that measures the speed and change of price movements
+
+RSI oscillates between 0 and 100:
+
+    - Above 70: overbought
+    - Below 30: oversold
+
+Formula :
+
+    RSI = 100 - 100 / (1 + RS) where RS = Average Gain / Average Loss
+
 ### Moving Average Convergence Divergence - MACD
 
+Momentum indicator calculated to assess the power of price movement in a market
 
+Procedure:
 
+    - Calculate a 12-period EMA of price
+    - Calculate a 26-period EMA of price
+    - Subtract the 26-period EMA from the 12-period EMA
+    - Calculate a 9-period EMA of the result obtained from step 3
+
+The 9-period is called the MACD line
