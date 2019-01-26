@@ -26,7 +26,7 @@ We retrieve the ask & bid at each timestamp of the XBT/DASH pair on both platfor
 and then compare them.
 
 if (kraken_ask < poloniex_bid || poloniex_ask < kraken_bid) {
-    //Arbitrage opportunity detected
+    //arbitrage opportunity detected
 }
 
 ## Data analysis
