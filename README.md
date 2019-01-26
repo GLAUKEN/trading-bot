@@ -8,7 +8,7 @@ https://api.kraken.com/public
 
 https://poloniex.com/public`
 
-## Common Indicators
+## Common Indicators:
 
 Bid : The most someone is willing to pay for an asset
 
@@ -45,7 +45,7 @@ and then compare them.
 
 Retrieve XBT/DASH historical data on poloniex from 1 year ago.
 
-#### Historical Data :
+#### Historical Data:
 
 https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=1485302400&end=1548437192&period=300
 
@@ -55,7 +55,7 @@ https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=
 
     period=300       : Time resolution (5 min)
 
-#### Unix timestamp :
+#### Unix timestamp:
 
 https://www.unixtimestamp.com/index.php
 
@@ -90,7 +90,7 @@ RSI oscillates between 0 and 100:
     - Above 70: overbought
     - Below 30: oversold
 
-#### Formula :
+#### Formula:
 
     RSI = 100 - 100 / (1 + RS) where RS = Average Gain / Average Loss
 
