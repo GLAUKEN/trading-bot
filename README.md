@@ -11,9 +11,13 @@ Bid : The most someone is willing to pay for an asset
 Ask : The least someone is willing to receive
 
 Candles : Bundles of transactions
+
     - Duration : Length in time of the candle
+
     - Open     : First tx in the candle
+
     - Close    : Last tx
+    
     - High/Low : Extreme price values of the candle
 
 ## Arbitrage
