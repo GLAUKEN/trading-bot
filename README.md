@@ -22,9 +22,13 @@ Candles : Bundles of transactions
 
 ## Arbitrage
 
-Kraken XBT/DASH   : https://api.kraken.com/0/public/Ticker?pair=DASHXBT
+#### Kraken XBT/DASH:
 
-Poloniex XBT/DASH : https://poloniex.com/public?command=returnTicker
+https://api.kraken.com/0/public/Ticker?pair=DASHXBT
+
+#### Poloniex XBT/DASH:
+
+https://poloniex.com/public?command=returnTicker
 
 We retrieve the ask & bid at each timestamp of the XBT/DASH pair on both platforms
 and then compare them.
