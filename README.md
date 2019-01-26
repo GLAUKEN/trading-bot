@@ -6,7 +6,7 @@ https://api.kraken.com/public
 
 #### Poloniex API:
 
-https://poloniex.com/public`
+https://poloniex.com/public
 
 ## Common Indicators:
 
@@ -102,7 +102,7 @@ Momentum indicator calculated to assess the power of price movement in a market
 
     - Calculate 12-period EMA of price
     - Calculate 26-period EMA of price
-    - Subtract 26-period EMA from the 12-period EMA
+    - Subtract  26-period EMA from the 12-period EMA
     - Calculate 9-period EMA of the result obtained from step 3
 
 This 9-period is called the MACD line
