@@ -1,7 +1,5 @@
 # Trading Bot - Bitcoin/Dash
 
-![chart](chart-xbtdash.png)
-
 #### Kraken API:
 
 https://api.kraken.com/public
