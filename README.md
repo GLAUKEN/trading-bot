@@ -1,8 +1,12 @@
 # Trading Bot - Bitcoin/Dash
 
-Kraken API   : https://api.kraken.com/public
+#### Kraken API:
 
-Poloniex API : https://poloniex.com/public`
+https://api.kraken.com/public
+
+#### Poloniex API:
+
+https://poloniex.com/public`
 
 ## Common Indicators
 
