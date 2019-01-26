@@ -37,7 +37,7 @@ and then compare them.
 
 Retrieve XBT/DASH historical data on poloniex from 1 year ago.
 
-Historical Data :
+#### Historical Data :
 
 https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=1485302400&end=1548437192&period=300
 
@@ -47,7 +47,9 @@ https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=
 
     period=300       : Time resolution (5 min)
 
-Unix timestamp : https://www.unixtimestamp.com/index.php
+#### Unix timestamp :
+
+https://www.unixtimestamp.com/index.php
 
 ### Exponential Moving Average - Y-EMA
 
