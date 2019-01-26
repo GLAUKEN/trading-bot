@@ -1,6 +1,6 @@
 # Trading Bot - Bitcoin/Dash
 
-![chart](.\image\chart-xbtdash.png)
+![chart](.\image\chart-xbtdash.png?raw=true "chart")
 
 #### Kraken API:
 
