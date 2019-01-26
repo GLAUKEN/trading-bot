@@ -95,4 +95,4 @@ Procedure:
     - Subtract the 26-period EMA from the 12-period EMA
     - Calculate a 9-period EMA of the result obtained from step 3
 
-The 9-period is called the MACD line
+This 9-period is called the MACD line
