@@ -53,7 +53,7 @@ https://www.unixtimestamp.com/index.php
 
 ### Exponential Moving Average - Y-EMA
 
-Formula:
+#### Formula:
 
     EMA = (P - EMAp) * K + EMAp
 
@@ -63,11 +63,11 @@ Formula:
         - K = Smoothing constant 2 / (n + 1)
         - n = Number of periods in a simple moving average roughly approximated by the EMA
 
-Install dependencies:
+#### Install dependencies:
 
     npm i --save exponential-moving-average
 
-Use it:
+#### Use it:
 
     const ema = require('exponential-moving-average');
 
@@ -82,7 +82,7 @@ RSI oscillates between 0 and 100:
     - Above 70: overbought
     - Below 30: oversold
 
-Formula :
+#### Formula :
 
     RSI = 100 - 100 / (1 + RS) where RS = Average Gain / Average Loss
 
@@ -90,7 +90,7 @@ Formula :
 
 Momentum indicator calculated to assess the power of price movement in a market
 
-Procedure:
+#### Procedure:
 
     - Calculate a 12-period EMA of price
     - Calculate a 26-period EMA of price
