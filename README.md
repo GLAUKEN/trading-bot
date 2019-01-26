@@ -59,6 +59,8 @@ https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=
 
 https://www.unixtimestamp.com/index.php
 
+## Indicators
+
 ### Simple Moving Average - X-SMA
 
 The Simple Moving Average (SMA) is calculated by adding the price of an instrument over a number of time periods and then dividing the sum by the number of time periods. The SMA is basically the average price of the given time period, with equal weighting given to the price of each period.
