@@ -24,7 +24,11 @@ var calculateMACD = function() {
 
     //step 4: calculate a nine-period EMA of the result obtained from step 3.
     var macd = ema(difference, 9);
+    for (let i = 0; i < macd.length; i++) {
+        console.log(macd[i]);
+    }
     return macd;
 }
 
-console.log(calculateMACD());
+calculateMACD();
+//console.log(calculateMACD());

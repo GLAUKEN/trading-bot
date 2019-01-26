@@ -43,7 +43,7 @@ and then compare them.
 
 ## Data analysis
 
-Retrieve XBT/DASH historical data on poloniex from 1 year ago.
+Retrieve XBT/DASH historical data of Poloniex from 1 year ago.
 
 #### Historical Data:
 
@@ -100,9 +100,9 @@ Momentum indicator calculated to assess the power of price movement in a market
 
 #### Procedure:
 
-    - Calculate a 12-period EMA of price
-    - Calculate a 26-period EMA of price
-    - Subtract the 26-period EMA from the 12-period EMA
-    - Calculate a 9-period EMA of the result obtained from step 3
+    - Calculate 12-period EMA of price
+    - Calculate 26-period EMA of price
+    - Subtract 26-period EMA from the 12-period EMA
+    - Calculate 9-period EMA of the result obtained from step 3
 
 This 9-period is called the MACD line
