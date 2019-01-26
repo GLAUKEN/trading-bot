@@ -30,7 +30,9 @@ We retrieve the ask & bid at each timestamp of the XBT/DASH pair on both platfor
 and then compare them.
 
 if (kraken_ask < poloniex-bid || poloniex_ask < kraken_bid) {
+
     //arbitrage opportunity detected
+    
 }
 
 ## Data analysis
@@ -42,7 +44,9 @@ Historical Data :
 https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=1485302400&end=1548437192&period=300
 
 start=1485302400 : Unix timestamp 1 year ago
+
 end=1548437192   : Unix timestamp when we did
+
 period=300       : Time resolution (5 min)
 
 Unix timestamp : https://www.unixtimestamp.com/index.php
@@ -56,4 +60,5 @@ npm i --save exponential-moving-average
 Use it :
 
 const ema = require('exponential-moving-average');
+
 ema(data, period);
