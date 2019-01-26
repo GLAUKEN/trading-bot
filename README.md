@@ -41,11 +41,11 @@ Historical Data :
 
 https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=1485302400&end=1548437192&period=300
 
-start=1485302400 : Unix timestamp 1 year ago
+    start=1485302400 : Unix timestamp 1 year ago
 
-end=1548437192   : Unix timestamp when we did
+    end=1548437192   : Unix timestamp when we did
 
-period=300       : Time resolution (5 min)
+    period=300       : Time resolution (5 min)
 
 Unix timestamp : https://www.unixtimestamp.com/index.php
 
