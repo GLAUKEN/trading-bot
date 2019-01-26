@@ -28,6 +28,6 @@ var calculateRSI = function(period) {
     return 100 - (100 / (1 + relativeStrength));
 }
 
-console.log("RSI with period = 13");
-console.log(calculateRSI(13));
+console.log("RSI with period = 14");
+console.log(calculateRSI(14));
 
