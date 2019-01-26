@@ -49,14 +49,29 @@ https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=
 
 Unix timestamp : https://www.unixtimestamp.com/index.php
 
-### Y-EMA
+### Exponential Moving Average - Y-EMA
 
-Install dependencies :
+Formula:
+
+    EMA = (P - EMAp) * K + EMAp
+
+    where:
+        - P = Price of the current period
+        - EMAp = Exponential Moving Average of the previous period
+        - K = Smoothing constant 2 / (n + 1)
+        - n = Number of periods in a simple moving average roughly approximated by the EMA
+
+Install dependencies:
 
     npm i --save exponential-moving-average
 
-Use it :
+Use it:
 
     const ema = require('exponential-moving-average');
 
     ema(data, period);
+
+### Moving Average Convergence Divergence - MACD
+
+
+
