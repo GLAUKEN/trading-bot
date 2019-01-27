@@ -10,11 +10,11 @@ https://poloniex.com/public
 
 ## Common Indicators:
 
-Bid : The most someone is willing to pay for an asset
+_Bid_ : The most someone is willing to pay for an asset
 
-Ask : The least someone is willing to receive
+_Ask_ : The least someone is willing to receive
 
-Candles : Bundles of transactions
+_Candles_ : Bundles of transactions
 
     - Duration : Length in time of the candle
 
