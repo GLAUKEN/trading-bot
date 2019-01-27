@@ -4,7 +4,7 @@
 <div>
     &nbsp
     <img src="image\kraken.jpg" alt="kraken-logo" width="24"/>
-    <b>Kraken API &nbsp&nbsp:</b>
+    <b>Kraken Public HTTP API Endpoint&nbsp&nbsp:</b>
     <a href="https://api.kraken.com/public"> https://api.kraken.com/public
     </a>
     <br/><br/>
@@ -12,7 +12,7 @@
 
 <div>
     <img src="image\poloniex.jpg" alt="poloniex-logo" width="33"/>
-    <b>Poloniex API:</b>
+    <b>Poloniex Public HTTP API Endpoint:</b>
     <a href="https://api.kraken.com/public"> https://poloniex.com/public
     </a>
     <br/>
