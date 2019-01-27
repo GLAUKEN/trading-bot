@@ -54,7 +54,16 @@ var arbitrage = function(day) {
         }
     
         if (kraken_ask < poloniex_bid || poloniex_ask < kraken_bid) {
-            console.log("arbitrage opportunity detected");
+            let serviceId = 'serviceId';
+
+            var info = {
+                from: 'knj.lau@gmail.com',
+                to: 'kenji.lau@devinci.fr',
+                subject: 'subject',
+                message: 'Arbitrage opportunity detected!'
+            };
+
+            emailjs.send(serviceId, info);
         }
     }
 }
