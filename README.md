@@ -26,11 +26,11 @@ https://poloniex.com/public
 
 ## Arbitrage
 
-#### Kraken XBT/DASH:
+**Kraken XBT/DASH:**
 
 https://api.kraken.com/0/public/Ticker?pair=DASHXBT
 
-#### Poloniex XBT/DASH:
+**Poloniex XBT/DASH:**
 
 https://poloniex.com/public?command=returnTicker
 
@@ -45,7 +45,7 @@ and then compare them.
 
 Retrieve XBT/DASH historical data of Poloniex from 1 year ago.
 
-#### Historical Data:
+**Historical Data:**
 
 https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=1485302400&end=1548437192&period=300
 
@@ -55,7 +55,7 @@ https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=
 
     period=300       : Time resolution (5 min)
 
-#### Unix timestamp:
+**Unix timestamp:**
 
 https://www.unixtimestamp.com/index.php
 
@@ -65,7 +65,7 @@ https://www.unixtimestamp.com/index.php
 
 The Simple Moving Average (SMA) is calculated by adding the price of an instrument over a number of time periods and then dividing the sum by the number of time periods. The SMA is basically the average price of the given time period, with equal weighting given to the price of each period.
 
-#### Formula:
+**Formula:**
 
     SMA = sum(prices) / n, where n = Time period
 
@@ -73,7 +73,7 @@ The Simple Moving Average (SMA) is calculated by adding the price of an instrume
 
 The Exponential Moving Average (EMA) represents an average of prices, but places more weight on recent prices. The weighting applied to the most recent price depends on the selected period of the moving average. The shorter the period for the EMA, the more weight that will be applied to the most recent price.
 
-#### Formula:
+**Formula:**
 
     EMA = (P - EMAp) * K + EMAp
 
@@ -83,11 +83,11 @@ The Exponential Moving Average (EMA) represents an average of prices, but places
         - K = Smoothing constant 2 / (n + 1)
         - n = Number of periods in a simple moving average roughly approximated by the EMA
 
-#### Install dependencies:
+**Install dependencies:**
 
     npm i --save exponential-moving-average
 
-#### Use it:
+**Use it:**
 
     const ema = require('exponential-moving-average');
 
@@ -97,12 +97,12 @@ The Exponential Moving Average (EMA) represents an average of prices, but places
 
 Momentum oscillator that measures the speed and change of price movements
 
-#### RSI oscillates between 0 and 100:
+**RSI oscillates between 0 and 100:**
 
     - Above 70: overbought
     - Below 30: oversold
 
-#### Formula:
+**Formula:**
 
     RSI = 100 - 100 / (1 + RS) where RS = Average Gain / Average Loss
 
@@ -110,7 +110,7 @@ Momentum oscillator that measures the speed and change of price movements
 
 Momentum indicator calculated to assess the power of price movement in a market
 
-#### Procedure:
+**Procedure:**
 
     - Calculate 12-period EMA of price
     - Calculate 26-period EMA of price
