@@ -2,7 +2,7 @@
 
 <div>
     <img src="image\kraken.jpg" alt="kraken-logo" width="24"/>
-    <b>Kraken API:</b>
+    <b>Kraken API: </b>
     <a href="https://api.kraken.com/public"> https://api.kraken.com/public
     </a>
     <br/><br/>
@@ -10,7 +10,7 @@
 
 <div>
     <img src="image\poloniex.jpg" alt="poloniex-logo" width="26"/>
-    <b>Poloniex API</b>
+    <b>Poloniex API: </b>
     <a href="https://api.kraken.com/public"> https://poloniex.com/public
     </a>
     <br/><br/>
