@@ -2,8 +2,8 @@
 
 
 <div>
-    <img src="image\kraken.jpg" alt="kraken-logo" width="24"/>
     &nbsp
+    <img src="image\kraken.jpg" alt="kraken-logo" width="24"/>
     <b>Kraken API &nbsp&nbsp:</b>
     <a href="https://api.kraken.com/public"> https://api.kraken.com/public
     </a>
