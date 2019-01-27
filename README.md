@@ -47,7 +47,7 @@ https://poloniex.com/public?command=returnTicker
 
 We retrieve the ask & bid at each timestamp of the XBT/DASH pair on both platforms and then compare them
 
-    if (kraken_ask < poloniex-bid || poloniex_ask < kraken_bid) {
+    if (kraken_ask < poloniex_bid || poloniex_ask < kraken_bid) {
         //arbitrage opportunity detected
     }
 
