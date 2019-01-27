@@ -1,7 +1,7 @@
 # Trading Bot - Bitcoin/Dash
 
 <div>
-    <img src="image\kraken.jpg" alt="kraken-logo" width="15"/>
+    <img src="image\kraken.jpg" alt="kraken-logo" width="25"/>
     <b>Kraken API</b>
 </div>
 
