@@ -45,7 +45,7 @@ https://api.kraken.com/0/public/Ticker?pair=DASHXBT
 
 https://poloniex.com/public?command=returnTicker
 
-We retrieve the ask & bid at each timestamp of the XBT/DASH pair on both platforms and then compare them.
+We retrieve the ask & bid at each timestamp of the XBT/DASH pair on both platforms and then compare them
 
     if (kraken_ask < poloniex-bid || poloniex_ask < kraken_bid) {
         //arbitrage opportunity detected
@@ -93,7 +93,7 @@ The Exponential Moving Average (EMA) represents an average of prices, but places
         - K = Smoothing constant 2 / (n + 1)
         - n = Number of periods in a simple moving average roughly approximated by the EMA
 
-**Install dependencies:**
+**Install dependency:**
 
     npm i --save exponential-moving-average
 
