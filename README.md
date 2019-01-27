@@ -1,6 +1,9 @@
 # Trading Bot - Bitcoin/Dash
 
-#### Kraken API:
+<div>
+    <img src="image\kraken.jpg" alt="kraken-logo" width="15"/>
+    <b>Kraken API</b>
+</div>
 
 https://api.kraken.com/public
 
