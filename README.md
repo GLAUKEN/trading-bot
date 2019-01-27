@@ -8,11 +8,13 @@
 https://api.kraken.com/public
 
 <div>
-    <img src="image\poloniex.jpg" alt="kraken-logo" width="18"/>
+    <img src="image\poloniex.jpg" alt="poloniex-logo" width="18"/>
     <b>Poloniex API</b>
 </div>
 
 https://poloniex.com/public
+
+<img src="image\chart_xbtdash.png" alt="chart" width="400">
 
 ## Common Indicators:
 
