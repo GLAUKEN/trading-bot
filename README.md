@@ -1,18 +1,21 @@
 # Trading Bot - Bitcoin/Dash
 
 <div>
-    <img src="image\kraken.jpg" alt="kraken-logo" width="18"/>
-    <b>Kraken API</b>
+    <img src="image\kraken.jpg" alt="kraken-logo" width="23"/>
+    <b>Kraken API:</b>
+    <a href="https://api.kraken.com/public"> https://api.kraken.com/public
+    </a>
+    <br/><br/>
 </div>
-
-https://api.kraken.com/public
 
 <div>
-    <img src="image\poloniex.jpg" alt="poloniex-logo" width="18"/>
+    <img src="image\poloniex.jpg" alt="poloniex-logo" width="23"/>
     <b>Poloniex API</b>
+    <a href="https://api.kraken.com/public"> https://poloniex.com/public
+    </a>
+    <br/><br/>
 </div>
 
-https://poloniex.com/public
 
 <img src="image\chart_xbtdash.png" alt="chart" width="400">
 
