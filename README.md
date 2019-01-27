@@ -15,7 +15,7 @@
     <b>Poloniex API: </b>
     <a href="https://api.kraken.com/public"> https://poloniex.com/public
     </a>
-    <br/><br/>
+    <br/>
 </div>
 
 
