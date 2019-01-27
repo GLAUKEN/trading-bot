@@ -17,8 +17,6 @@
 </div>
 
 
-<img src="image\chart_xbtdash.png" alt="chart" width="550">
-
 ## Common Indicators:
 
 **Bid** : The most someone is willing to pay for an asset
@@ -29,13 +27,13 @@
 
     - Duration : Length in time of the candle
 
-    - Open     : First tx in the candle
+    - Open     : First transaction in the candle
 
-    - Close    : Last tx
+    - Close    : Last transaction
 
     - High/Low : Extreme price values of the candle
 
-## Arbitrage
+## Arbitrage:
 
 **Kraken XBT/DASH:**
 
@@ -45,14 +43,13 @@ https://api.kraken.com/0/public/Ticker?pair=DASHXBT
 
 https://poloniex.com/public?command=returnTicker
 
-We retrieve the ask & bid at each timestamp of the XBT/DASH pair on both platforms
-and then compare them.
+We retrieve the ask & bid at each timestamp of the XBT/DASH pair on both platforms and then compare them.
 
     if (kraken_ask < poloniex-bid || poloniex_ask < kraken_bid) {
         //arbitrage opportunity detected
     }
 
-## Data analysis
+## Data analysis:
 
 Retrieve XBT/DASH historical data of Poloniex from 1 year ago.
 
@@ -62,7 +59,7 @@ https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=
 
     start=1485302400 : Unix timestamp 1 year ago
 
-    end=1548437192   : Unix timestamp when we did it
+    end=1548437192   : Unix timestamp Friday 25 January at 5:26pm
 
     period=300       : Time resolution (5 min)
 
@@ -70,9 +67,9 @@ https://poloniex.com/public?command=returnChartData&currencyPair=BTC_DASH&start=
 
 https://www.unixtimestamp.com/index.php
 
-## Indicators
+## Indicators:
 
-### Simple Moving Average - X-SMA
+### Simple Moving Average - X-SMA:
 
 The Simple Moving Average (SMA) is calculated by adding the price of an instrument over a number of time periods and then dividing the sum by the number of time periods. The SMA is basically the average price of the given time period, with equal weighting given to the price of each period.
 
@@ -80,7 +77,7 @@ The Simple Moving Average (SMA) is calculated by adding the price of an instrume
 
     SMA = sum(prices) / n, where n = Time period
 
-### Exponential Moving Average - Y-EMA
+### Exponential Moving Average - Y-EMA:
 
 The Exponential Moving Average (EMA) represents an average of prices, but places more weight on recent prices. The weighting applied to the most recent price depends on the selected period of the moving average. The shorter the period for the EMA, the more weight that will be applied to the most recent price.
 
@@ -104,9 +101,9 @@ The Exponential Moving Average (EMA) represents an average of prices, but places
 
     ema(data, period);
 
-### Relative Strength Index - RSI
+### Relative Strength Index - RSI:
 
-Momentum oscillator that measures the speed and change of price movements
+Momentum oscillator that measures the speed and change of price movements.
 
 **RSI oscillates between 0 and 100:**
 
@@ -117,9 +114,9 @@ Momentum oscillator that measures the speed and change of price movements
 
     RSI = 100 - 100 / (1 + RS) where RS = Average Gain / Average Loss
 
-### Moving Average Convergence Divergence - MACD
+### Moving Average Convergence Divergence - MACD:
 
-Momentum indicator calculated to assess the power of price movement in a market
+Momentum indicator calculated to assess the power of price movement in a market.
 
 **Procedure:**
 
@@ -128,4 +125,4 @@ Momentum indicator calculated to assess the power of price movement in a market
     - Subtract  26-period EMA from the 12-period EMA
     - Calculate 9-period EMA of the result obtained from step 3
 
-This 9-period is called the MACD line
+This 9-period is called the MACD line.
