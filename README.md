@@ -12,7 +12,7 @@
 
 <div>
     <img src="image\poloniex.jpg" alt="poloniex-logo" width="33"/>
-    <b>Poloniex API: </b>
+    <b>Poloniex API:</b>
     <a href="https://api.kraken.com/public"> https://poloniex.com/public
     </a>
     <br/>
