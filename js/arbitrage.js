@@ -3,8 +3,8 @@
 //import xmlhttprequest library
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
-var arbitrage = function(day) {
-    for (let i = 0; i < day; i++) {
+var arbitrage = function(limit) {
+    for (let i = 0; i < limit; i++) {
         console.log("i : " + (i + 1));
 
         //request pair DASH/XBT
@@ -16,7 +16,6 @@ var arbitrage = function(day) {
         if (kraken_req.status === 200) {
             //convert the object response into a json
             let json = JSON.parse(kraken_req.responseText);
-            console.log(json);
     
             //access to DASH/XBT
             json = json["result"];
