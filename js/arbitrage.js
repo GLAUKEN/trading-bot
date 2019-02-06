@@ -1,7 +1,4 @@
-//Arbitrage
-
-//import xmlhttprequest library
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 var arbitrage = function(limit) {
     for (let i = 0; i < limit; i++) {
@@ -36,10 +33,7 @@ var arbitrage = function(limit) {
         poloniex_req.open('GET', 'https://poloniex.com/public?command=returnTicker', false);
         poloniex_req.send(null);
     
-        //check the server response
-        //req.status === 200: server has responded
         if (poloniex_req.status === 200) {
-            //convert the object response into a json
             let json = JSON.parse(poloniex_req.responseText);
     
             //access to BTC/DASH
@@ -53,16 +47,7 @@ var arbitrage = function(limit) {
         }
     
         if (kraken_ask < poloniex_bid || poloniex_ask < kraken_bid) {
-            let serviceId = 'serviceId';
-
-            var info = {
-                from: 'knj.lau@gmail.com',
-                to: 'kenji.lau@devinci.fr',
-                subject: 'subject',
-                message: 'Arbitrage opportunity detected!'
-            };
-
-            emailjs.send(serviceId, info);
+            console.log("Arbitrage found!");
         }
     }
 }

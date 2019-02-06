@@ -1,16 +1,10 @@
-//kraken API
-//import xmlhttprequest library
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
-//request pair DASH/XBT
 const req = new XMLHttpRequest();
 req.open('GET', 'https://api.kraken.com/0/public/Ticker?pair=DASHXBT', false);
 req.send(null);
 
-//check the server response
-//req.status === 200 => server has responded
 if (req.status === 200) {
-    //convert the object response into a json
     let json = JSON.parse(req.responseText);
 
     //access to DASH/XBT

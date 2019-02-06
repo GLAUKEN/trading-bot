@@ -1,4 +1,3 @@
-//import the historical data 
 const historic_json = require('../historic-BTC_DASH.json');
 
 var calculateRSI = function(period) {
@@ -23,7 +22,6 @@ var calculateRSI = function(period) {
     
     if (sumGain === 0) return 0;
     
-    //relative strength
     let relativeStrength = sumGain / sumLoss;
     return 100 - (100 / (1 + relativeStrength));
 }
